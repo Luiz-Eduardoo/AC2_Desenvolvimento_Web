@@ -12,7 +12,7 @@ exports.createUser = (req, res) => {
     });
 };
 
-exports.getUserbyId = (req, res) => {
+exports.getProfessorbyId = (req, res) => {
     const userId = req.params.id;
     const usuario = usuarios.find(u => u.id == userId);
     
